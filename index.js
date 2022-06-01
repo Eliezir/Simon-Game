@@ -125,3 +125,10 @@ $(document).on("keypress", function () {
         gameOver = false;
     }
 })
+
+$(document).on("click", function () {
+    if (gameOver === true) {
+        nextColor();
+        gameOver = false;
+    }
+})
