@@ -126,9 +126,10 @@ $(document).on("keypress", function () {
     }
 })
 
-/*$(document).on("click", function () {
+
+$(document).on("click", function () {
     if (gameOver === true) {
         nextColor();
         gameOver = false;
     }
-})*/
+})
